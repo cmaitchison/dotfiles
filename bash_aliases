@@ -18,7 +18,11 @@ alias ll="ls -al"
 alias be="bundle exec"
 alias bec='bundle exec cucumber'
 alias ber='bundle exec rake'
+alias r='rake'
+alias log='tail -f log/development.log'
+alias metal='bundle exec rspec spec/metal'
 
+alias work="cd ~/Projects/me/homehelpnow"
 alias g='grep -i'  #case insensitive grep
 alias ducks='du -cks * | sort -rn|head -11' # Lists the size of all the folders$
 alias top='top -o cpu'
