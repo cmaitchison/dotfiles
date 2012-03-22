@@ -13,7 +13,7 @@ if [ "$PS1" ]; then
   cyan='\[\e[36m\]'
   grey='\[\e[0;37m\]'
   reset_color='\[\e[0m\]'
-  set_title='\[\e]0;\]\H:\w\[\007\]'
+  set_title='\[\e]0;\]$(basename "$PWD")\[\007\]'
 
   prompt="$green$"
 
