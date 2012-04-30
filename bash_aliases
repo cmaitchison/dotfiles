@@ -28,3 +28,5 @@ alias ducks='du -cks * | sort -rn|head -11' # Lists the size of all the folders$
 alias top='top -o cpu'
 alias systail='tail -f /var/log/system.log'
 alias profileme="history | awk '{print \$2}' | awk 'BEGIN{FS=\"|\"}{print \$1}' | sort | uniq -c | sort -n | tail -n 20 | sort -nr"
+
+alias tmux="TERM=screen-256color-bce tmux"
