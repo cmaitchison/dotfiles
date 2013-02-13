@@ -1,9 +1,5 @@
-export JAVA_HOME=/Library/Java/Home
 defaults write com.apple.finder AppleShowAllFiles TRUE
 source ~/.bash_aliases
-[[ -s "/Users/cmaitchison/.rvm/scripts/rvm" ]] && source "/Users/cmaitchison/.rvm/scripts/rvm"  # This loads RVM into a shell session.
-
-rvm use 1.9.3
 
 if [ "$PS1" ]; then
 
@@ -46,5 +42,3 @@ ${green}(\t) ${yellow}\w${grey}\$(prompt-git-branch)${cyan}\$(prompt-git-user) $
 ${prompt} ${reset_color}"
 
 fi
-
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting

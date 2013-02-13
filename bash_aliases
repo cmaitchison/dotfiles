@@ -20,7 +20,6 @@ alias bec='bundle exec cucumber'
 alias ber='bundle exec rake'
 alias r='rake'
 alias log='tail -f log/development.log'
-alias metal='bundle exec rspec spec/metal'
 
 alias work="cd ~/Projects/me/homehelpnow"
 alias g='grep -i'  #case insensitive grep
@@ -29,4 +28,3 @@ alias top='top -o cpu'
 alias systail='tail -f /var/log/system.log'
 alias profileme="history | awk '{print \$2}' | awk 'BEGIN{FS=\"|\"}{print \$1}' | sort | uniq -c | sort -n | tail -n 20 | sort -nr"
 
-alias tmux="TERM=screen-256color-bce tmux"
