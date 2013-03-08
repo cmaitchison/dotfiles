@@ -1,6 +1,7 @@
 defaults write com.apple.finder AppleShowAllFiles TRUE
 source ~/.bash_aliases
 
+set -o vi
 if [ "$PS1" ]; then
 
   red='\[\e[31m\]'
