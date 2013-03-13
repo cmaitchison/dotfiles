@@ -98,7 +98,7 @@
 [core]
   autocrlf = false
   editor = vim
-  excludesfile = ~/.yadr/git/gitignore
+	excludesfile = /Users/cmaitchison/.gitignore
 [advice]
   statusHints = false
 [diff]
