@@ -28,3 +28,4 @@ alias top='top -o cpu'
 alias systail='tail -f /var/log/system.log'
 alias profileme="history | awk '{print \$2}' | awk 'BEGIN{FS=\"|\"}{print \$1}' | sort | uniq -c | sort -n | tail -n 20 | sort -nr"
 
+alias s="cd /Users/cmaitchison/Projects/github/sodalis-labs"
