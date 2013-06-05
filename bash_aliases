@@ -29,3 +29,4 @@ alias systail='tail -f /var/log/system.log'
 alias profileme="history | awk '{print \$2}' | awk 'BEGIN{FS=\"|\"}{print \$1}' | sort | uniq -c | sort -n | tail -n 20 | sort -nr"
 
 alias s="cd /Users/cmaitchison/Projects/github/sodalis-labs"
+alias sshaws="ssh -o USER=ubuntu -i ~/.aws/sodalis.pem -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null"
