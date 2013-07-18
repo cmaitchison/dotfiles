@@ -97,7 +97,7 @@
   default = tracking
 [core]
   autocrlf = false
-  editor = vim
+  editor = subl
 	excludesfile = /Users/cmaitchison/.gitignore
 [advice]
   statusHints = false
