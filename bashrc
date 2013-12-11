@@ -42,3 +42,6 @@ ${green}(\t) ${yellow}\w${grey}\$(prompt-git-branch)${cyan}\$(prompt-git-user) $
 ${prompt} ${reset_color}"
 
 fi
+
+source /opt/boxen/env.sh
+export DYLD_FALLBACK_LIBRARY_PATH=/usr/lib:$DYLD_FALLBACK_LIBRARY_PATH

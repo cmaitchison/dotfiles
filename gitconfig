@@ -98,7 +98,7 @@
 [core]
   autocrlf = false
   editor = subl
-	excludesfile = /Users/cmaitchison/.gitignore
+	excludesfile = /opt/boxen/config/git/gitignore
 [advice]
   statusHints = false
 [diff]
@@ -112,3 +112,9 @@
 [user]
 	name = cmaitchison
 	email = cmaitchison@gmail.com
+
+[credential]
+helper = /opt/boxen/bin/boxen-git-credential
+
+[hub]
+protocol = https
