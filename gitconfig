@@ -97,8 +97,8 @@
   default = tracking
 [core]
   autocrlf = false
-  editor = subl
-	excludesfile = /opt/boxen/config/git/gitignore
+	editor = subl -n -w
+	excludesfile = /Users/cmaitchison/.gitignore
 [advice]
   statusHints = false
 [diff]
